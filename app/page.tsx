@@ -1,8 +1,10 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
-      <section className="bg-[#112E51] text-white">
-        <div className="max-w-6xl mx-auto px-6 py-24">
+      <section className="relative overflow-hidden">
+		<div className="absolute inset-0 bg-gradient-to-br from-[#1D3B82] via-[#112E51] to-black" />
+
+  		<div className="relative max-w-6xl mx-auto px-6 py-24">
           <span className="inline-block bg-[#D4A017] text-black px-4 py-2 rounded-full font-semibold text-sm">
             RECRUITING IS TOO IMPORTANT TO WING IT
           </span>
@@ -31,7 +33,7 @@ export default function Home() {
               Start Your Signing Day Project
             </a>
             <a href="#resources" className="border border-white px-6 py-3 rounded-xl font-semibold">
-              Explore Free Resources
+              Explore Resources
             </a>
           </div>
         </div>
