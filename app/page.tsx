@@ -7,9 +7,15 @@ export default function Home() {
             RECRUITING IS TOO IMPORTANT TO WING IT
           </span>
 
-          <h1 className="mt-8 text-5xl md:text-7xl font-bold leading-tight">
-            Recruiting Is Too Important To Wing It.
-          </h1>
+          <div className="mt-10">
+  			<h1 className="text-6xl md:text-8xl font-black leading-none text-white">
+    			Signing Day
+  			</h1>
+
+  			<h1 className="text-6xl md:text-8xl font-black leading-none text-[#D4A017] mt-2">
+    			Project
+  			</h1>
+		  </div>
 
           <p className="mt-6 text-xl text-slate-200 max-w-3xl">
             The football recruiting process can feel overwhelming.
