@@ -107,11 +107,11 @@ export default function Home() {
 
       <section id="start" className="py-24 text-center bg-[#112E51]">
         <h2 className="text-5xl font-bold text-white">
-          Build Your Recruiting Plan With Confidence.
+          Your Recruiting Journey Starts Here
         </h2>
 
         <p className="mt-6 text-xl text-slate-300">
-          Stop guessing. Start making informed decisions.
+          Stop guessing. Build a plan. Take control of the recruiting process
         </p>
 
         <button className="mt-8 bg-[#D4A017] text-black px-8 py-4 rounded-xl font-bold">
